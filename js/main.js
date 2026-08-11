@@ -367,13 +367,6 @@ document.addEventListener('click',function(e){
   var inc=e.target.closest('[data-inc]'); if(inc){CART[inc.dataset.inc]++;renderCart();return}
   var dec=e.target.closest('[data-dec]'); if(dec){var k=dec.dataset.dec;CART[k]--;if(CART[k]<1)delete CART[k];renderCart();return}
   var rm=e.target.closest('[data-rm]'); if(rm){delete CART[rm.dataset.rm];renderCart();return}
-  var cb=e.target.closest('[data-combo]');
-  if(cb){
-    var c=COMBOS[+cb.dataset.combo];
-    c.items.forEach(function(nm){var d=byName(nm); if(d) addToCart(d.id,true)});
-    toast(c.name+' added — '+c.items.length+' dishes');
-    openCart();
-  }
 });
 
 function openCart(){var c=$('#cart'),s=$('#scrim'); if(!c||!s) return; c.classList.add('open');s.classList.add('open');document.body.classList.add('is-locked')}
@@ -415,11 +408,10 @@ function dishCard(d,opts){
   $('#dishCount').textContent=DISHES.length;
 
   /* combos */
-  $('#comboWrap').innerHTML=COMBOS.map(function(c,i){
+  $('#comboWrap').innerHTML=COMBOS.map(function(c){
     return '<div class="combo" data-rev><span class="combo-tag">'+esc(c.tag)+'</span>'+
       '<h3>'+esc(c.name)+'</h3><p>'+esc(c.desc)+'</p>'+
-      '<div class="combo-price"><b>'+money(c.price)+'</b><s>'+money(c.was)+'</s></div>'+
-      '<button class="btn btn--sm" data-combo="'+i+'"><span>Add this combo</span></button></div>';
+      '<div class="combo-price"><b>'+money(c.price)+'</b><s>'+money(c.was)+'</s></div></div>';
   }).join('');
 
   /* quotes */
