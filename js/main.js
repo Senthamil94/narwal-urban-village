@@ -381,22 +381,21 @@ function closeCart(){var c=$('#cart'),s=$('#scrim'); if(!c||!s) return; c.classL
 var cartBtn=$('#cartBtn'); if(cartBtn) cartBtn.addEventListener('click',openCart);
 var cartClose=$('#cartClose'); if(cartClose) cartClose.addEventListener('click',closeCart);
 var scrim=$('#scrim'); if(scrim) scrim.addEventListener('click',closeCart);
-var checkout=$('#checkout'); if(checkout) checkout.addEventListener('click',function(){
-  window.open('https://order.boons.io/site/narwal-urban-village/401/y','_blank','noopener,noreferrer');
-});
 
 /* ============================================================
    7 · RENDER: dish card
    ============================================================ */
-function dishCard(d){
+function dishCard(d,opts){
+  opts=opts||{};
   var tags=d.tags.filter(function(t){return t!=='VEG'||d.tags.indexOf('V')<0})
     .map(function(t){return '<span class="tag '+TAG_CLASS[t]+'">'+TAG_LABEL[t]+'</span>'}).join('');
+  var action=opts.hideAdd?'':
+    '<button class="add" data-add="'+d.id+'"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg><span>Add</span></button>';
   return '<article class="dish" data-rev="s">'+
     '<div class="dish-img"><img src="'+d.img+'" alt="'+esc(d.name)+'" loading="lazy">'+
       (tags?'<div class="dish-tags">'+tags+'</div>':'')+'</div>'+
     '<div class="dish-body"><h4>'+esc(d.name)+'</h4><p>'+esc(d.desc)+'</p>'+
-      '<div class="dish-foot"><span class="price">'+money(d.price)+'</span>'+
-      '<button class="add" data-add="'+d.id+'"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg><span>Add</span></button></div>'+
+      '<div class="dish-foot"><span class="price">'+money(d.price)+'</span>'+action+'</div>'+
     '</div></article>';
 }
 
@@ -408,9 +407,9 @@ function dishCard(d){
   var words=['Clay oven since 1972','Ground fresh daily','Paneer made in house','Saffron basmati','Berkeley, California','Sixteen vegetarian dishes','No powder bases'];
   $('#mqTrack').innerHTML=(words.concat(words)).map(function(w){return '<span>'+w+'</span>'}).join('');
 
-  /* signature dishes */
+  /* signature dishes — no Add; order via Combo menu */
   var sig=['TANDOORI CHICKEN','CHICKEN BIRYANI','LAMB SAAG','MALAI KOFTA'].map(byName).filter(Boolean);
-  $('#signatureDishes').innerHTML=sig.map(dishCard).join('');
+  $('#signatureDishes').innerHTML=sig.map(function(d){return dishCard(d,{hideAdd:true})}).join('');
 
   /* dish count */
   $('#dishCount').textContent=DISHES.length;
