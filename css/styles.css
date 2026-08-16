@@ -634,8 +634,9 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.08;letter-s
 
 /* ---------- footer ---------- */
 .foot{border-top:1px solid var(--line);padding:clamp(56px,7vw,90px) 0 32px;position:relative;z-index:3;background:linear-gradient(180deg,transparent,rgba(27,23,18,.6))}
-.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.3fr;gap:clamp(28px,4vw,54px);margin-bottom:54px}
-@media(max-width:860px){.foot-grid{grid-template-columns:1fr 1fr}}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr .9fr;gap:clamp(28px,4vw,54px);margin-bottom:54px}
+@media(max-width:980px){.foot-grid{grid-template-columns:1fr 1fr 1fr}}
+@media(max-width:640px){.foot-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.foot-grid{grid-template-columns:1fr}}
 .foot h5{font-size:10px;letter-spacing:.34em;text-transform:uppercase;color:var(--saffron);margin-bottom:20px;font-family:var(--body);font-weight:500}
 .foot li{margin-bottom:11px}
@@ -650,7 +651,11 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.08;letter-s
 .news{display:flex;border-bottom:1px solid var(--line-soft);margin-top:14px}
 .news input{flex:1;padding:12px 0;font-size:13px}
 .news button{padding:0 4px;color:var(--saffron);font-size:10px;letter-spacing:.24em;text-transform:uppercase}
-.foot-bot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:26px;border-top:1px solid var(--line-soft);font-size:11px;color:var(--muted);font-family:var(--muted-font);letter-spacing:.08em}
+.foot-bot{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;padding-top:26px;border-top:1px solid var(--line-soft);font-size:11px;color:var(--muted);font-family:var(--muted-font);letter-spacing:.08em}
+.powered-by{display:inline-flex;align-items:center;gap:.55rem;letter-spacing:.04em}
+.powered-by a{display:inline-flex;align-items:center;transition:opacity .25s}
+.powered-by a:hover{opacity:.85}
+.powered-by img{height:22px;width:auto;display:block}
 
 /* ---------- toast ---------- */
 .toasts{position:fixed;bottom:26px;left:50%;transform:translateX(-50%);z-index:950;display:flex;flex-direction:column;gap:9px;align-items:center;pointer-events:none}

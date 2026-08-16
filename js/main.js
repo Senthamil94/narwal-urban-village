@@ -306,7 +306,7 @@ function observeReveals(root){
 function toast(msg){
   var t=document.createElement('div');
   t.className='toast';
-  t.innerHTML='<svg viewBox="0 0 24 24"><path d="m20 6-11 11-5-5"/></svg><span>'+esc(msg)+'</span>';
+  t.innerHTML='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m20 6-11 11-5-5"/></svg><span>'+esc(msg)+'</span>';
   $('#toasts').appendChild(t);
   setTimeout(function(){t.classList.add('out');setTimeout(function(){t.remove()},420)},2900);
 }
@@ -331,7 +331,7 @@ function renderCart(){
   var box=$('#cartItems'), foot=$('#cartFoot');
   if(!box||!foot) return;
   if(!n){
-    box.innerHTML='<div class="cart-empty"><svg viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg><p>Nothing here yet.<br>Add a dish from the menu and it will show up.</p></div>';
+    box.innerHTML='<div class="cart-empty"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18M16 10a4 4 0 0 1-8 0"/></svg><p>Nothing here yet.<br>Add a dish from the menu and it will show up.</p></div>';
     foot.style.display='none'; return;
   }
   foot.style.display='block';
@@ -383,7 +383,7 @@ function dishCard(d,opts){
   var tags=d.tags.filter(function(t){return t!=='VEG'||d.tags.indexOf('V')<0})
     .map(function(t){return '<span class="tag '+TAG_CLASS[t]+'">'+TAG_LABEL[t]+'</span>'}).join('');
   var action=opts.hideAdd?'':
-    '<button class="add" data-add="'+d.id+'"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg><span>Add</span></button>';
+    '<button class="add" data-add="'+d.id+'"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Add</span></button>';
   return '<article class="dish" data-rev="s">'+
     '<div class="dish-img"><img src="'+d.img+'" alt="'+esc(d.name)+'" loading="lazy">'+
       (tags?'<div class="dish-tags">'+tags+'</div>':'')+'</div>'+
@@ -416,8 +416,8 @@ function dishCard(d,opts){
 
   /* quotes */
   $('#quotes').innerHTML=QUOTES.map(function(q,i){
-    var stars=new Array(5).join('0').split('').map(function(){return '<svg viewBox="0 0 24 24"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.2 3.3L7 14.3l-5-4.9 7-.9z"/></svg>'}).join('')+
-      '<svg viewBox="0 0 24 24"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.2 3.3L7 14.3l-5-4.9 7-.9z"/></svg>';
+    var stars=new Array(5).join('0').split('').map(function(){return '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.2 3.3L7 14.3l-5-4.9 7-.9z"/></svg>'}).join('')+
+      '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 3 6.5 7 .9-5 4.9 1.2 7L12 18l-6.2 3.3L7 14.3l-5-4.9 7-.9z"/></svg>';
     return '<figure class="quote'+(i===0?' on':'')+'"><div class="stars">'+stars+'</div>'+
       '<blockquote>'+esc(q[0])+'</blockquote><cite>'+esc(q[1])+'</cite></figure>';
   }).join('');
@@ -624,11 +624,20 @@ $$('.field select, .field input[type=date]').forEach(function(el){ el.closest('.
    13 · MOBILE NAV
    ============================================================ */
 var burger=$('#burger'), mnav=$('#mnav');
-function closeMobile(){mnav.classList.remove('open');burger.classList.remove('x');burger.setAttribute('aria-expanded','false');document.body.classList.remove('is-locked')}
+function closeMobile(){
+  mnav.classList.remove('open');
+  burger.classList.remove('x');
+  burger.setAttribute('aria-expanded','false');
+  burger.setAttribute('aria-label','Open menu');
+  mnav.setAttribute('aria-hidden','true');
+  document.body.classList.remove('is-locked');
+}
 burger.addEventListener('click',function(){
   var o=mnav.classList.toggle('open');
   burger.classList.toggle('x',o);
   burger.setAttribute('aria-expanded',String(o));
+  burger.setAttribute('aria-label',o?'Close menu':'Open menu');
+  mnav.setAttribute('aria-hidden',o?'false':'true');
   document.body.classList.toggle('is-locked',o);
 });
 
