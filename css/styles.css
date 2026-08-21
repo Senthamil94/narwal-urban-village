@@ -419,6 +419,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.08;letter-s
 .dish-img{position:relative;aspect-ratio:1/1;overflow:hidden;background:var(--ash-4)}
 .dish-img img{width:100%;height:100%;object-fit:cover;transition:transform 1s var(--ease);}
 .dish:hover .dish-img img{transform:scale(1.09)}
+.dish.no-photo .dish-tags{position:static;margin:16px 20px 0;max-width:none}
 .dish-tags{position:absolute;top:11px;left:11px;display:flex;gap:5px;z-index:2;flex-wrap:wrap;max-width:80%}
 .tag{
   font-size:8.5px;letter-spacing:.16em;text-transform:uppercase;padding:4px 8px;border-radius:2px;

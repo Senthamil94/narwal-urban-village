@@ -27,109 +27,109 @@ var CAT_NOTE = {
 
 var M = [
 /* APPETIZERS */
-['PAPADUM','APPETIZERS',3.00,'Crispy sun-dried lentil wafers, light and irresistible','tava-kebab-barbeque-pottery-pan_114579-2183.avif',['GF','V','VEG']],
-['VEGETABLES PAPADUM','APPETIZERS',4.00,'Crispy lentil wafers loaded with cucumber, onions, green chillies and chaat masala','top-view-sliced-shaurma-tasty-meat-salad-sandwich-grey-surface-burger-sandwich-salad-bread-pita-meat_140725-102090.avif',['VEG']],
+['PAPADUM','APPETIZERS',3.00,'Crispy sun-dried lentil wafers, light and irresistible','house/papadum.jpg',['GF','V','VEG']],
+['VEGETABLES PAPADUM','APPETIZERS',4.00,'Crispy lentil wafers loaded with cucumber, onions, green chillies and chaat masala','house/veg-papadum.jpg',['VEG']],
 ['SAMOSA (2 PCS)','APPETIZERS',7.50,'Golden pastry pockets filled with spiced potatoes and peas','WhatsApp-Image-2026-05-30-at-9.12.48-AM.jpeg',['VEG']],
 ['VEGETABLE PAKORA','APPETIZERS',6.99,'Crispy mixed vegetable fritters in seasoned chickpea batter','unnamed-38-e1781045428810.webp',['GF','V','VEG']],
 ['PANEER PAKORA','APPETIZERS',8.99,'Cubes of fresh Indian cottage cheese in aromatic chickpea batter','unnamed-37-e1781045383754.webp',['GF','VEG']],
 ['CHICKEN 65','APPETIZERS',11.99,'Classic South Indian crispy chicken with aromatic spices and yogurt','unnamed-39-e1781045478994.webp',['GF']],
-['TANDOORI WINGS','APPETIZERS',14.99,'Chicken wings marinated in yogurt and tandoori spices, clay-oven roasted','delicious-glazed-chicken-wings-with-assorted-dipping-sauces_84443-72363.avif',['GF']],
+['TANDOORI WINGS','APPETIZERS',14.99,'Chicken wings marinated in yogurt and tandoori spices, clay-oven roasted','house/tandoori-chicken.jpg',['GF']],
 ['PANI PURI','APPETIZERS',10.00,'Crunchy wheat puffs topped with spiced potato stuffing and sweet-spicy pani shots','street-food-still-life_23-2151535157.avif',['VEG']],
 ['PANI PURI CHAAT','APPETIZERS',10.00,'Crunchy wheat puffs with spiced potatoes, creamy yogurt, tangy chutneys and crunchy sev','unnamed-40-e1781045545662.webp',['VEG']],
 /* SOUPS & SALADS */
-['DAAL SOUP','SOUPS & SALADS',5.99,'Warm lentil soup simmered with mild aromatic spices','indian-dhal-spicy-curry-bowl-spices-herbs-rustic-black-wooden-table_2829-18712.avif',['V','VEG']],
-['MULLIGATAWNY SOUP','SOUPS & SALADS',7.99,'Classic chicken soup in a rich Indian-spiced broth','mulligatawny-soup-indian-food-photography_960396-391.jpg',[]],
+['DAAL SOUP','SOUPS & SALADS',5.99,'Warm lentil soup simmered with mild aromatic spices','house/daal-soup.jpg',['V','VEG']],
+['MULLIGATAWNY SOUP','SOUPS & SALADS',7.99,'Classic chicken soup in a rich Indian-spiced broth','house/daal-soup.jpg',[]],
 ['GREEN SALAD','SOUPS & SALADS',5.00,'Tomato, cucumber and onions','unnamed-49.webp',['V','VEG','GF']],
 /* SNACKS */
-['MASALA PEANUTS','SNACKS',9.50,'Fried peanuts loaded with chopped onions, cucumber, green chillies, avocado and lemon juice','unnamed-42.webp',['N','V','VEG','GF']],
-['LOADED NACHOS','SNACKS',9.50,'Chips loaded with chopped onions, cucumber, green chillies and mozzarella','loaded-nachos-with-melted-cheese-jalapeos-sour-cream-salsa-rustic-wooden-table_1029370-11854.jpg',['VEG']],
+['MASALA PEANUTS','SNACKS',9.50,'Fried peanuts loaded with chopped onions, cucumber, green chillies, avocado and lemon juice','house/masala-peanuts.jpg',['N','V','VEG','GF']],
+['LOADED NACHOS','SNACKS',9.50,'Chips loaded with chopped onions, cucumber, green chillies and mozzarella','house/loaded-nachos.jpg',['VEG']],
 /* TANDOORI SPECIALS */
-['TANDOORI CHICKEN','TANDOORI SPECIALS',17.99,'Chicken leg and breast marinated in yogurt and classic tandoori spices, roasted in the clay oven','unnamed-25.webp',['GF']],
-['CHICKEN TIKKA KEBAB','TANDOORI SPECIALS',17.99,'Juicy chicken cubes skewered and roasted in the tandoor','unnamed-27.webp',['GF']],
-['CHICKEN ACHARI','TANDOORI SPECIALS',17.99,'Chicken in a bold pickling-spice marinade, roasted to perfection','curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415-2.avif',['GF']],
+['TANDOORI CHICKEN','TANDOORI SPECIALS',17.99,'Chicken leg and breast marinated in yogurt and classic tandoori spices, roasted in the clay oven','house/tandoori-chicken.jpg',['GF']],
+['CHICKEN TIKKA KEBAB','TANDOORI SPECIALS',17.99,'Juicy chicken cubes skewered and roasted in the tandoor','house/tandoori-chicken.jpg',['GF']],
+['CHICKEN ACHARI','TANDOORI SPECIALS',17.99,'Chicken in a bold pickling-spice marinade, roasted to perfection','house/kadai-chicken.jpg',['GF']],
 ['SEEKH KEBAB CHICKEN','TANDOORI SPECIALS',17.99,'Spiced minced chicken pressed onto skewers and grilled in the tandoor','delicious-restauranr-appetizer-beer-hard-alcohol-roasted-sausage-set-with-tomato-green-sauce-onion-slices-table-is-covered-with-embroidered-tablecloth_7502-5860.avif',[]],
-['PANEER TIKKA','TANDOORI SPECIALS',17.99,'Paneer cubes in a yogurt and spice marinade, charred in the clay oven','unnamed-24.webp',['VEG','GF']],
+['PANEER TIKKA','TANDOORI SPECIALS',17.99,'Paneer cubes in a yogurt and spice marinade, charred in the clay oven','house/img-2813.jpg',['VEG','GF']],
 ['SEEKH KEBAB LAMB','TANDOORI SPECIALS',19.99,'Spiced minced lamb pressed onto skewers and grilled in the tandoor','appetizing-kofta-kebab-meatballs-with-sauce-tortillas-tacos-black-table_2829-7881.avif',[]],
-['PRAWN TANDOORI','TANDOORI SPECIALS',19.99,'Prawns cooked darbari style','unnamed-26.webp',['GF']],
-['FISH TANDOORI','TANDOORI SPECIALS',19.99,'Salmon cooked in the clay oven','tandoori-pomfret-fish-cooked-clay-oven-garnished-with-lemon-mint-cabbage-carrot-salad-selective-focus_466689-30027.jpg',['GF']],
+['PRAWN TANDOORI','TANDOORI SPECIALS',19.99,'Prawns cooked darbari style','house/prawn-tandoori.jpg',['GF']],
+['FISH TANDOORI','TANDOORI SPECIALS',19.99,'Salmon cooked in the clay oven','house/fish-tandoori.jpg',['GF']],
 /* CHICKEN DISHES */
-['CHICKEN CURRY','CHICKEN DISHES',17.99,'Tender chicken in a classic, fragrant home-style curry','unnamed-52.webp',['GF']],
-['CHICKEN SAAG','CHICKEN DISHES',17.99,'Chicken in a rich, deeply spiced spinach sauce','palak-chicken-chicken-saag_762785-271472.jpg',['GF']],
-['CHICKEN TIKKA MASALA','CHICKEN DISHES',17.99,'Tikka-grilled chicken in a creamy aromatic tomato sauce','unnamed-51.webp',['GF']],
-['KASHMIRI CHICKEN','CHICKEN DISHES',17.99,'Chicken in a creamy spinach tikka sauce with Kashmiri notes','sizzling-southern-savor-irresistible-chicken-best-chicken-picture_1020697-27287.jpg',[]],
-['COCONUT CHICKEN','CHICKEN DISHES',17.99,'Chicken in a light, aromatic coconut milk gravy','chicken-green-curry-bowl_1150-23909.avif',['GF']],
-['DAAL CHICKEN','CHICKEN DISHES',17.99,'Chicken with lentils in a hearty, deeply spiced thick sauce','indian-food-kadai-paneer_55610-2187.avif',['GF']],
-['CHICKEN CHILLI','CHICKEN DISHES',17.99,'Bold chicken with fresh peppers in a fiery chilli sauce','spicy-korean-fried-chicken-with-sesame-seeds-green-onions_84443-85044.avif',[]],
-['KADAI CHICKEN','CHICKEN DISHES',17.99,'Chicken with peppers and onion in rustic kadai masala','kadai-chicken-photo-with-fresh-mint-cilantro_1036998-359836.avif',['GF']],
-['CHICKEN KORMA','CHICKEN DISHES',17.99,'Tender chicken in a mild, fragrant cashew cream sauce','unnamed-50-e1781046231551.webp',['N','GF']],
+['CHICKEN CURRY','CHICKEN DISHES',17.99,'Tender chicken in a classic, fragrant home-style curry','house/chicken-curry.jpg',['GF']],
+['CHICKEN SAAG','CHICKEN DISHES',17.99,'Chicken in a rich, deeply spiced spinach sauce','house/chicken-saag.jpg',['GF']],
+['CHICKEN TIKKA MASALA','CHICKEN DISHES',17.99,'Tikka-grilled chicken in a creamy aromatic tomato sauce','house/goat-tikka-masala.jpg',['GF']],
+['KASHMIRI CHICKEN','CHICKEN DISHES',17.99,'Chicken in a creamy spinach tikka sauce with Kashmiri notes','house/chicken-saag.jpg',[]],
+['COCONUT CHICKEN','CHICKEN DISHES',17.99,'Chicken in a light, aromatic coconut milk gravy','house/navratan-korma.jpg',['GF']],
+['DAAL CHICKEN','CHICKEN DISHES',17.99,'Chicken with lentils in a hearty, deeply spiced thick sauce','house/daal-saag.jpg',['GF']],
+['CHICKEN CHILLI','CHICKEN DISHES',17.99,'Bold chicken with fresh peppers in a fiery chilli sauce','house/kadai-chicken.jpg',[]],
+['KADAI CHICKEN','CHICKEN DISHES',17.99,'Chicken with peppers and onion in rustic kadai masala','house/kadai-chicken.jpg',['GF']],
+['CHICKEN KORMA','CHICKEN DISHES',17.99,'Tender chicken in a mild, fragrant cashew cream sauce','house/navratan-korma.jpg',['N','GF']],
 /* LAMB DISHES */
-['LAMB SAAG','LAMB DISHES',18.50,'Slow-cooked lamb in a rich spinach sauce','mutton-curry-with-freshly-chopped-mint-leaves_1179130-725966.jpg',['GF']],
-['LAMB CURRY','LAMB DISHES',18.50,'Tender lamb cubes in a bold street-style curry with whole spices','unnamed-55.webp',['GF']],
-['KADAI GOSHT','LAMB DISHES',18.50,'Lamb with peppers and vegetables in a rustic kadai sauce','rendang-simmering-pot-with-tender-beef-aromati_947794-151430.jpg',['GF']],
-['DAAL GOSHT','LAMB DISHES',18.50,'Lamb with lentils, cilantro and whole spices','chonar-daal-dal-chana-chicken-gosht-with-onion-pepper-salad-served-dish-isolated-wooden-table-top-view-indian-bangladesh-food_689047-2165.jpg',['GF']],
-['COCONUT LAMB','LAMB DISHES',18.50,'Lamb in a creamy aromatic coconut sauce','bone-grill-red-cuisine-ribs_1203-5850.avif',['GF']],
-['LAMB VINDALOO','LAMB DISHES',18.50,'Fiery Goan-style lamb with potatoes','delicious-goulash-stew-table_23-2149371730.avif',['GF']],
-['LAMB TIKKA MASALA','LAMB DISHES',18.50,'Lamb in our signature creamy tikka sauce','unnamed-54.webp',['GF']],
-['LAMB KORMA','LAMB DISHES',18.50,'Melt-in-mouth lamb in a luxurious cashew cream sauce','unnamed-53.webp',['N','GF']],
+['LAMB SAAG','LAMB DISHES',18.50,'Slow-cooked lamb in a rich spinach sauce','house/lamb-saag.jpg',['GF']],
+['LAMB CURRY','LAMB DISHES',18.50,'Tender lamb cubes in a bold street-style curry with whole spices','house/goat-tikka-masala.jpg',['GF']],
+['KADAI GOSHT','LAMB DISHES',18.50,'Lamb with peppers and vegetables in a rustic kadai sauce','house/kadai-chicken.jpg',['GF']],
+['DAAL GOSHT','LAMB DISHES',18.50,'Lamb with lentils, cilantro and whole spices','house/daal-saag.jpg',['GF']],
+['COCONUT LAMB','LAMB DISHES',18.50,'Lamb in a creamy aromatic coconut sauce','house/navratan-korma.jpg',['GF']],
+['LAMB VINDALOO','LAMB DISHES',18.50,'Fiery Goan-style lamb with potatoes','house/kadai-chicken.jpg',['GF']],
+['LAMB TIKKA MASALA','LAMB DISHES',18.50,'Lamb in our signature creamy tikka sauce','house/goat-tikka-masala.jpg',['GF']],
+['LAMB KORMA','LAMB DISHES',18.50,'Melt-in-mouth lamb in a luxurious cashew cream sauce','house/navratan-korma.jpg',['N','GF']],
 /* GOAT SPECIAL */
-['GOAT CURRY','GOAT SPECIAL',18.50,'Goat cooked with our house blend of spices','mutton-curry-with-hint-dried-mango-powder_1179130-726128.jpg',['GF']],
-['GOAT VINDALOO','GOAT SPECIAL',18.50,'Goat cooked with potatoes in a special vindaloo sauce','traditional-rogan-josh-wonders-ar-c_839793-197270.jpg',['GF']],
-['GOAT KARAHI','GOAT SPECIAL',18.50,'Goat cooked with stir-fried tomatoes and bell peppers in a special sauce','babi-guling-with-side-garam-masala_1114710-224207.jpg',['GF']],
-['GOAT TIKKA MASALA','GOAT SPECIAL',18.50,'Goat cooked in our tikka masala sauce','mutton-curry-with-freshly-chopped-marjoram_1179130-725819.jpg',['GF']],
+['GOAT CURRY','GOAT SPECIAL',18.50,'Goat cooked with our house blend of spices','house/goat-tikka-masala.jpg',['GF']],
+['GOAT VINDALOO','GOAT SPECIAL',18.50,'Goat cooked with potatoes in a special vindaloo sauce','house/kadai-chicken.jpg',['GF']],
+['GOAT KARAHI','GOAT SPECIAL',18.50,'Goat cooked with stir-fried tomatoes and bell peppers in a special sauce','house/kadai-chicken.jpg',['GF']],
+['GOAT TIKKA MASALA','GOAT SPECIAL',18.50,'Goat cooked in our tikka masala sauce','house/goat-tikka-masala.jpg',['GF']],
 /* SEAFOOD CURRIES */
-['PRAWN MASALA','SEAFOOD CURRIES',19.99,'Prawns cooked in a rich tikka masala sauce','closeup-spicy-grilled-shrimp-with-cilantro-black-bowl_1353244-6296.jpg',['GF']],
-['PRAWN VINDALOO','SEAFOOD CURRIES',19.99,'Prawns cooked with tomatoes in our special vindaloo sauce','schezwan-prawns-indo-chinese-curry-dish-with-spicy-sauce_875825-169368.jpg',['GF']],
-['FISH CURRY','SEAFOOD CURRIES',19.99,'Salmon cooked in a special house sauce','savory-fish-curry-with-black-pepper-yummy-fish-curry-food-image-photography_1020697-612322.jpg',['GF']],
-['FISH MASALA','SEAFOOD CURRIES',19.99,'Salmon cooked in tikka masala sauce','top-view-delicious-fish-meal-tray_23-2148734692.avif',['GF']],
+['PRAWN MASALA','SEAFOOD CURRIES',19.99,'Prawns cooked in a rich tikka masala sauce','house/prawn-masala.jpg',['GF']],
+['PRAWN VINDALOO','SEAFOOD CURRIES',19.99,'Prawns cooked with tomatoes in our special vindaloo sauce','house/prawn-curry.jpg',['GF']],
+['FISH CURRY','SEAFOOD CURRIES',19.99,'Salmon cooked in a special house sauce','house/fish-curry.jpg',['GF']],
+['FISH MASALA','SEAFOOD CURRIES',19.99,'Salmon cooked in tikka masala sauce','house/prawn-masala.jpg',['GF']],
 /* VEGETARIAN SPECIALTIES */
-['SAAG ALOO','VEGETARIAN SPECIALTIES',16.95,'Spinach and potatoes in a rich, velvety spiced gravy','spiced-spinach-potato-saag-creamy-rich-indian-dish_167857-55231.jpg',['VEG','GF']],
-['BAINGAN BHARTA','VEGETARIAN SPECIALTIES',16.95,'Fire-roasted eggplant mashed with herbs and spices','unnamed-29-e1781044900936.webp',['VEG','V','GF']],
-['DAAL MAKHANI','VEGETARIAN SPECIALTIES',16.95,'Slow-cooked lentils in a rich, creamy buttery sauce','unnamed-33-e1781045214192.webp',['VEG','GF']],
-['SAAG PANEER','VEGETARIAN SPECIALTIES',16.95,'Paneer in perfectly spiced creamed spinach','unnamed-32-e1781045161502.webp',['VEG','GF']],
-['MATAR PANEER','VEGETARIAN SPECIALTIES',16.95,'Peas and paneer in a warm fragrant tomato gravy','unnamed-34-e1781045255151.webp',['VEG','GF']],
-['NAVARATNA KORMA','VEGETARIAN SPECIALTIES',16.95,'Seasonal vegetables in a rich cashew cream sauce','unnamed-28.webp',['VEG','N','GF']],
-['PANEER KORMA','VEGETARIAN SPECIALTIES',16.95,'Soft paneer in a silky cashew cream sauce','healthy-homemade-meal-beef-curry-with-naan-generated-by-ai_188544-41071.avif',['VEG','N','GF']],
-['MALAI KOFTA','VEGETARIAN SPECIALTIES',16.95,'Vegetable dumplings in a fragrant creamy sauce','unnamed-31-e1781045084969.webp',['VEG','N']],
-['VEG TIKKA MASALA','VEGETARIAN SPECIALTIES',16.95,'Seasonal vegetables in a creamy tikka sauce','pakistani-biryani-hd-8k-wallpaper-stock-photographic-image_890746-105359.jpg',['VEG','GF']],
-['PANEER JALFREZI','VEGETARIAN SPECIALTIES',16.95,'Paneer in a royal velvety cream sauce with pepper','paneer-jalfrezi-cottage-cheese-cooked-with-peppers-onion_466689-82020.jpg',['VEG','GF']],
-['KADAI PANEER','VEGETARIAN SPECIALTIES',16.95,'Paneer with bell peppers and onions in rustic masala','delicious-meal-table_23-2150857698.avif',['VEG','GF']],
-['SHAHI PANEER','VEGETARIAN SPECIALTIES',16.95,'Paneer in a royal velvety cream sauce','flavorful-shahi-paneer-with-soft-paneer-cubes_167857-55618.jpg',['VEG','GF']],
-['PANEER TIKKA MASALA','VEGETARIAN SPECIALTIES',16.95,'Tandoor-roasted paneer in a creamy tomato sauce','unnamed-30-e1781045043170.webp',['VEG','GF']],
-['ALOO MATAR','VEGETARIAN SPECIALTIES',16.95,'Potatoes and peas cooked in a rich velvety spiced gravy','aloo-mutter-matar-aalu-dry-sabzi-indian-potato-green-peas-fried-together-with-spices-garnished-with-coriander-leaves-served-with-roti-chapati_466689-3980.avif',['VEG','V','GF']],
-['YELLOW DAAL','VEGETARIAN SPECIALTIES',16.95,'Yellow daal cooked in a rich creamy spiced gravy','unnamed-59.webp',['VEG','GF']],
-['OKHRA','VEGETARIAN SPECIALTIES',16.95,'Okra cooked in a rich creamy spiced gravy with vegetables','plecing-kacang-panjang-khas-bali-long-beans-with-chili-sauce-indonesian-culinary-food_570543-4371.jpg',['VEG','GF']],
+['SAAG ALOO','VEGETARIAN SPECIALTIES',16.95,'Spinach and potatoes in a rich, velvety spiced gravy','house/saag-aloo.jpg',['VEG','GF']],
+['BAINGAN BHARTA','VEGETARIAN SPECIALTIES',16.95,'Fire-roasted eggplant mashed with herbs and spices','house/baingan-bharat.jpg',['VEG','V','GF']],
+['DAAL MAKHANI','VEGETARIAN SPECIALTIES',16.95,'Slow-cooked lentils in a rich, creamy buttery sauce','house/daal-makhani.jpg',['VEG','GF']],
+['SAAG PANEER','VEGETARIAN SPECIALTIES',16.95,'Paneer in perfectly spiced creamed spinach','house/saag-aloo.jpg',['VEG','GF']],
+['MATAR PANEER','VEGETARIAN SPECIALTIES',16.95,'Peas and paneer in a warm fragrant tomato gravy','house/img-2815.jpg',['VEG','GF']],
+['NAVARATNA KORMA','VEGETARIAN SPECIALTIES',16.95,'Seasonal vegetables in a rich cashew cream sauce','house/navratan-korma.jpg',['VEG','N','GF']],
+['PANEER KORMA','VEGETARIAN SPECIALTIES',16.95,'Soft paneer in a silky cashew cream sauce','house/navratan-korma.jpg',['VEG','N','GF']],
+['MALAI KOFTA','VEGETARIAN SPECIALTIES',16.95,'Vegetable dumplings in a fragrant creamy sauce','house/malai-kofta.jpg',['VEG','N']],
+['VEG TIKKA MASALA','VEGETARIAN SPECIALTIES',16.95,'Seasonal vegetables in a creamy tikka sauce','house/veg-tikka-masala.jpg',['VEG','GF']],
+['PANEER JALFREZI','VEGETARIAN SPECIALTIES',16.95,'Paneer in a royal velvety cream sauce with pepper','house/kadai-paneer.jpg',['VEG','GF']],
+['KADAI PANEER','VEGETARIAN SPECIALTIES',16.95,'Paneer with bell peppers and onions in rustic masala','house/kadai-paneer.jpg',['VEG','GF']],
+['SHAHI PANEER','VEGETARIAN SPECIALTIES',16.95,'Paneer in a royal velvety cream sauce','house/shahi-paneer.jpg',['VEG','GF']],
+['PANEER TIKKA MASALA','VEGETARIAN SPECIALTIES',16.95,'Tandoor-roasted paneer in a creamy tomato sauce','house/shahi-paneer.jpg',['VEG','GF']],
+['ALOO MATAR','VEGETARIAN SPECIALTIES',16.95,'Potatoes and peas cooked in a rich velvety spiced gravy','house/aloo-mattar.jpg',['VEG','V','GF']],
+['YELLOW DAAL','VEGETARIAN SPECIALTIES',16.95,'Yellow daal cooked in a rich creamy spiced gravy','house/daal-soup.jpg',['VEG','GF']],
+['OKHRA','VEGETARIAN SPECIALTIES',16.95,'Okra cooked in a rich creamy spiced gravy with vegetables','house/okra.jpg',['VEG','GF']],
 /* BOWLS */
-['VEGETARIAN BOWL','BOWLS',21.99,'Rice, vegetables and vegetable curry in one bowl','bowl.webp',['VEG','GF']],
-['CHICKEN BOWL','BOWLS',22.99,'Rice, vegetables and chicken curry','bowl.webp',['GF']],
-['LAMB BOWL','BOWLS',23.99,'Rice, vegetables and lamb curry','unnamed-56.webp',['GF']],
+['VEGETARIAN BOWL','BOWLS',21.99,'Rice, vegetables and vegetable curry in one bowl','house/bowls.jpg',['VEG','GF']],
+['CHICKEN BOWL','BOWLS',22.99,'Rice, vegetables and chicken curry','house/bowls.jpg',['GF']],
+['LAMB BOWL','BOWLS',23.99,'Rice, vegetables and lamb curry','house/bowls.jpg',['GF']],
 /* RICE & BIRYANI */
-['JEERA RICE','RICE & BIRYANI',3.99,'Basmati rice sautéed with cumin seeds and turmeric','cumin-rice-jeera-rice-is-popular-indian-main-course-item-made-using-basmati-rice-with-basic-spices_466689-2480.avif',['VEG','V','GF']],
-['VEG BIRYANI','RICE & BIRYANI',16.99,'Aromatic basmati layered with vegetables','unnamed-46.webp',['VEG','GF']],
-['CHICKEN BIRYANI','RICE & BIRYANI',17.99,'Chicken in saffron basmati with nuts and spices','unnamed-47.webp',['N','GF']],
-['LAMB BIRYANI','RICE & BIRYANI',19.99,'Succulent lamb with aromatic basmati and spices','unnamed-48.webp',['N','GF']],
+['JEERA RICE','RICE & BIRYANI',3.99,'Basmati rice sautéed with cumin seeds and turmeric','house/jeera-rice.jpg',['VEG','V','GF']],
+['VEG BIRYANI','RICE & BIRYANI',16.99,'Aromatic basmati layered with vegetables','house/veg-biryani.jpg',['VEG','GF']],
+['CHICKEN BIRYANI','RICE & BIRYANI',17.99,'Chicken in saffron basmati with nuts and spices','house/chicken-biryani.jpg',['N','GF']],
+['LAMB BIRYANI','RICE & BIRYANI',19.99,'Succulent lamb with aromatic basmati and spices','house/lamb-biryani.jpg',['N','GF']],
 /* NAAN & INDIAN BREADS */
-['TANDOORI ROTI','NAAN & INDIAN BREADS',3.50,'Traditional whole wheat flatbread from the clay oven','WhatsApp-Image-2026-05-30-at-9.12.22-AM-3.jpeg',['VEG','V']],
-['BUTTER NAAN','NAAN & INDIAN BREADS',3.99,'Classic white flour naan brushed with butter','unnamed-44.webp',['VEG']],
-['CHILLI NAAN','NAAN & INDIAN BREADS',3.99,'Naan with fresh green chillies','unnamed-43.webp',['VEG']],
-['GARLIC NAAN','NAAN & INDIAN BREADS',4.99,'Topped with fresh garlic and cilantro','WhatsApp-Image-2026-05-30-at-9.12.23-AM.jpeg',['VEG']],
-['SPINACH NAAN','NAAN & INDIAN BREADS',4.99,'Naan infused with spinach and Indian spices','traditional-meat-kutab-with-sumakh-rasberry-plain-youghurt-top-view_141793-4214.avif',['VEG']],
-['PANEER NAAN','NAAN & INDIAN BREADS',4.99,'Stuffed with seasoned cottage cheese','top-view-delicious-qutabs-rolled-green-filled-dough-slices-grey-space_140725-75802.avif',['VEG']],
-['ONION NAAN','NAAN & INDIAN BREADS',4.99,'Stuffed with caramelised onions','naan-with-caramelized-onion-photo_1036998-287962.jpg',['VEG']],
-['SESAME NAAN','NAAN & INDIAN BREADS',4.99,'Naan topped with sesame seeds','cake-with-sesame-tea-pot-top-view_141793-1765.avif',['VEG']],
-['CHEESE NAAN','NAAN & INDIAN BREADS',5.99,'Naan stuffed with melted cheese','there-is-pizza-wooden-board-table_1034638-69463.jpg',['VEG']],
-['CHICKEN NAAN','NAAN & INDIAN BREADS',5.99,'Stuffed with minced spiced chicken','close-up-naan-roti-tandoori-chicken-indian-food-generative-ai_698447-1950.avif',[]],
-['KEEMA NAAN LAMB/CHICKEN','NAAN & INDIAN BREADS',6.99,'Stuffed with spiced minced lamb or chicken','side-view-pide-with-ground-meat-tomato-onion-hot-green-pepper-greens-slice-lemon-tray_141793-5056.avif',[]],
-['ASSORTED BREAD','NAAN & INDIAN BREADS',12.50,'Garlic, onion and butter naan trio','assorted-freshly-baked-bread-selection_98396-102306.jpg',['VEG']],
+['TANDOORI ROTI','NAAN & INDIAN BREADS',3.50,'Traditional whole wheat flatbread from the clay oven','',['VEG','V']],
+['BUTTER NAAN','NAAN & INDIAN BREADS',3.99,'Classic white flour naan brushed with butter','house/garlic-naan.jpg',['VEG']],
+['CHILLI NAAN','NAAN & INDIAN BREADS',3.99,'Naan with fresh green chillies','house/chilli-naan.jpg',['VEG']],
+['GARLIC NAAN','NAAN & INDIAN BREADS',4.99,'Topped with fresh garlic and cilantro','house/garlic-naan.jpg',['VEG']],
+['SPINACH NAAN','NAAN & INDIAN BREADS',4.99,'Naan infused with spinach and Indian spices','house/spinach-naan.jpg',['VEG']],
+['PANEER NAAN','NAAN & INDIAN BREADS',4.99,'Stuffed with seasoned cottage cheese','house/cheese-naan.jpg',['VEG']],
+['ONION NAAN','NAAN & INDIAN BREADS',4.99,'Stuffed with caramelised onions','house/garlic-naan.jpg',['VEG']],
+['SESAME NAAN','NAAN & INDIAN BREADS',4.99,'Naan topped with sesame seeds','house/sesame-naan.jpg',['VEG']],
+['CHEESE NAAN','NAAN & INDIAN BREADS',5.99,'Naan stuffed with melted cheese','house/cheese-naan.jpg',['VEG']],
+['CHICKEN NAAN','NAAN & INDIAN BREADS',5.99,'Stuffed with minced spiced chicken','house/assorted-naan.jpg',[]],
+['KEEMA NAAN LAMB/CHICKEN','NAAN & INDIAN BREADS',6.99,'Stuffed with spiced minced lamb or chicken','house/assorted-naan.jpg',[]],
+['ASSORTED BREAD','NAAN & INDIAN BREADS',12.50,'Garlic, onion and butter naan trio','house/assorted-naan.jpg',['VEG']],
 /* NORTH SPECIAL */
-['TANDOORI ALOO PARATHA','NORTH SPECIAL',8.99,'Flatbread stuffed with spiced mashed potatoes, served with plain yogurt and butter','unnamed-45-1-e1781045949573.webp',['VEG']],
-['ALOO ONION PARATHA','NORTH SPECIAL',8.99,'Flatbread stuffed with spiced onions and potatoes, with plain yogurt and butter','unnamed-45.webp',['VEG']],
-['ONION PARATHA','NORTH SPECIAL',8.99,'Flatbread stuffed with spiced mashed onions, with plain yogurt and butter','unnamed-45-2-e1781045983574.webp',['VEG']],
-['PANEER PARATHA','NORTH SPECIAL',8.99,'Flatbread stuffed with spiced cottage cheese, served with plain yogurt and butter','unnamed-45-e1781045905249.webp',['VEG']],
+['TANDOORI ALOO PARATHA','NORTH SPECIAL',8.99,'Flatbread stuffed with spiced mashed potatoes, served with plain yogurt and butter','house/aloo-paratha.jpg',['VEG']],
+['ALOO ONION PARATHA','NORTH SPECIAL',8.99,'Flatbread stuffed with spiced onions and potatoes, with plain yogurt and butter','house/aloo-onion-paratha.jpg',['VEG']],
+['ONION PARATHA','NORTH SPECIAL',8.99,'Flatbread stuffed with spiced mashed onions, with plain yogurt and butter','house/garlic-naan.jpg',['VEG']],
+['PANEER PARATHA','NORTH SPECIAL',8.99,'Flatbread stuffed with spiced cottage cheese, served with plain yogurt and butter','house/cheese-naan.jpg',['VEG']],
 /* SIDES */
-['MIXED PICKLE','SIDES',2.99,'Traditional spiced pickle mix','unnamed-58.webp',['VEG','V','GF']],
+['MIXED PICKLE','SIDES',2.99,'Traditional spiced pickle mix','house/pickles.jpg',['VEG','V','GF']],
 ['MANGO CHUTNEY','SIDES',2.99,'Sweet and tangy mango preserve','spicy-mango-chutney_971989-25736.jpg',['VEG','V','GF']],
-['PLAIN YOGURT','SIDES',2.99,'Chilled, thick and plain','unnamed-57.webp',['VEG','GF']],
-['RAITA','SIDES',3.99,'Cooling yogurt with cucumber and herbs','vibrant-raita-trio-displayed-modern-wooden-tray_1179130-207213.jpg',['VEG','GF']],
+['PLAIN YOGURT','SIDES',2.99,'Chilled, thick and plain','house/raita.jpg',['VEG','GF']],
+['RAITA','SIDES',3.99,'Cooling yogurt with cucumber and herbs','house/raita.jpg',['VEG','GF']],
 /* DESSERTS */
 ['GULAB JAMUN','DESSERTS',4.95,'Soft milk dumplings soaked in rose-scented syrup','delicious-indian-dessert-view_23-2149312365-1.avif',['VEG']],
 ['KHEER','DESSERTS',4.95,'Creamy rice pudding with cardamom and rosewater','indian-kheer-phirni-dessert-with-nuts-saffron_466689-49983.jpg',['VEG','N','GF']],
@@ -140,38 +140,49 @@ var M = [
 ['CAN SODA','BEVERAGES',2.99,'Coke, Sprite or ginger ale','ice-cola-glasses-iced-tea-glass-cups-soft-drink-glasses_768188-631.avif',['V','VEG','GF']],
 ['MASALA CHAI','BEVERAGES',3.25,'Black tea simmered with cardamom, ginger and warm spices','steaming-cup-coffee-with-cinnamon-sticks-star-anise-coffee-beans-dark-background_9975-124681.avif',['VEG','GF']],
 ['SALT LASSI','BEVERAGES',3.50,'Savoury yogurt drink with cumin and mint','ayran-drink-with-mint-cucumber-glass_123827-21510.avif',['VEG','GF']],
-['MANGO LASSI','BEVERAGES',4.00,'Yogurt blended with fresh ripe mango','unnamed-35.webp',['VEG','GF']],
+['MANGO LASSI','BEVERAGES',4.00,'Yogurt blended with fresh ripe mango','house/mango-lassi.jpg',['VEG','GF']],
 /* REFRESHERS */
-['SPICY PINK GUAVA','REFRESHERS',7.00,'Guava, lime, sugar and in-house spices','unnamed-36.webp',['V','VEG','GF']],
-['LEMONADE','REFRESHERS',7.00,'Lime, sugar and in-house spices','untitled-design-delicious-lemonade-is-refreshing-beverage-with-perfect-balance-sweet-tar_198067-471939.jpg',['V','VEG','GF']],
+['SPICY PINK GUAVA','REFRESHERS',7.00,'Guava, lime, sugar and in-house spices','house/spicy-pink-guava.jpg',['V','VEG','GF']],
+['LEMONADE','REFRESHERS',7.00,'Lime, sugar and in-house spices','house/spicy-pink-guava.jpg',['V','VEG','GF']],
 ['MINT MOJITO','REFRESHERS',7.00,'Mint, sugar, lime and in-house spices','ice-cubes-mint-leaves-mojito-cocktail-against-black-background-generative-ai_1219132-33236.jpg',['V','VEG','GF']]
 ];
 
 var DISHES = M.map(function(d,i){
-  return {id:'d'+i, name:d[0], cat:d[1], price:d[2], desc:d[3], img:U+d[4], tags:d[5]};
+  return {id:'d'+i, name:d[0], cat:d[1], price:d[2], desc:d[3], img:d[4]?U+d[4]:'', tags:d[5]};
 });
 
 var TAG_LABEL = {V:'Vegan', GF:'Gluten free', N:'Nuts', VEG:'Veg'};
 var TAG_CLASS = {V:'v', GF:'gf', N:'n', VEG:'v'};
 
 var GALLERY = [
- [U+'Classic-Tandoori-Chicken-Banner-1024x683-1.webp','Tandoori chicken, straight off the skewer','tandoor'],
- [U+'rahi-banner.jpeg','The dining room','room'],
- [U+'20250402072331-tandoori-20chicken.webp','Charred, not burnt','tandoor'],
- [U+'curry-with-chicken-onions-indian-food-asian-cuisine_2829-4415.avif','Chicken curry with onions','curry'],
- [U+'malai-kofta-naan.png','Malai kofta with fresh naan','curry'],
- [U+'fish-biryani-fish-rice-popular-indian-non-vegetarian-recipe-made-fish-marinated-with-indian-spices-fresh-herbs-cooked-with-basmati-rice-selective-focus_466689-59991.jpg','Fish biryani, saffron basmati','rice'],
- [U+'delicious-pakistani-dish-high-angle_23-2148825127.avif','Lamb saag','curry'],
- [U+'entrecote-kebab-served-with-arugula-glass-wine_141793-607.avif','Seekh kebab and arugula','tandoor'],
- [U+'traditional-indian-food-aloo-paratha-potato-stuffed-flat-bread-served-with-tomato-ketchup-curd-colourful-wooden-background-selective-focus_466689-68329.jpg','Aloo paratha with curd','bread'],
- [U+'top-view-chicken-garlic-bottle-oil-lemon-sauce-chicken-with-herbs-lavash-fork-knife_140725-73680.avif','Garlic chicken, herbs, lavash','tandoor'],
- [U+'How-to-Make-Chicken-Biryani-Video.jpg','Chicken biryani, lid off','rice'],
- [U+'delicious-pakistani-dish-high-angle_23-2148825127-1.avif','Slow-cooked lamb in spinach','curry'],
- [U+'20250402072331-tandoori-20chicken-1.webp','Yogurt marinade, overnight','tandoor'],
- [U+'WhatsApp_Image_2026-05-30_at_8.33.13_PM.jpeg','In the kitchen','room'],
- [U+'WhatsApp-Image-2026-05-30-at-9.12.23-AM.jpeg','Garlic naan off the wall','bread'],
- [U+'WhatsApp-Image-2026-05-30-at-9.12.48-AM.jpeg','Samosas, folded by hand','bread'],
- [U+'unnamed-32-e1781045161502.webp','Saag paneer','curry']
+ [U+'house/tandoori-chicken.jpg','Tandoori chicken, leg and breast','tandoor'],
+ [U+'house/img-2638.jpg','The table, loaded','curry'],
+ [U+'house/lamb-saag.jpg','Lamb saag','curry'],
+ [U+'house/malai-kofta.jpg','Malai kofta','curry'],
+ [U+'house/kadai-chicken.jpg','Kadai chicken','curry'],
+ [U+'house/img-2813.jpg','Paneer tikka with mint and tamarind','tandoor'],
+ [U+'house/garlic-naan.jpg','Garlic naan, off the tandoor','bread'],
+ [U+'house/spinach-naan.jpg','Spinach naan','bread'],
+ [U+'house/sesame-naan.jpg','Sesame naan','bread'],
+ [U+'house/navratan-korma.jpg','Navratan korma','curry'],
+ [U+'house/kadai-paneer.jpg','Kadai paneer','curry'],
+ [U+'house/shahi-paneer.jpg','Shahi paneer','curry'],
+ [U+'house/prawn-masala.jpg','Prawn masala','curry'],
+ [U+'house/saag-aloo.jpg','Saag aloo','curry'],
+ [U+'house/aloo-mattar.jpg','Aloo matar','curry'],
+ [U+'house/baingan-bharat.jpg','Baingan bharta','curry'],
+ [U+'house/chicken-saag.jpg','Chicken saag','curry'],
+ [U+'house/goat-tikka-masala.jpg','Goat tikka masala','curry'],
+ [U+'house/loaded-nachos.jpg','Loaded nachos','bread'],
+ [U+'house/assorted-naan.jpg','Assorted naan','bread'],
+ [U+'house/mango-lassi.jpg','Mango lassi','curry'],
+ [U+'house/chicken-biryani.jpg','Chicken biryani, lid off','rice'],
+ [U+'house/img-2633.jpg','The patio on Sacramento Street','room'],
+ [U+'house/img-2634.jpg','3136 Sacramento Street','room'],
+ [U+'house/img-2640.jpg','The pass','room'],
+ [U+'house/img-2636.jpg','Narwal Urban Village','room'],
+ [U+'house/img-2632.jpg','An authentic Indian cuisine','room'],
+ [U+'house/img-2635.jpg','Narwal Urban, in the window','room']
 ];
 var GAL_FILTERS=[['all','Everything'],['tandoor','Tandoor'],['curry','Curries'],['rice','Rice'],['bread','Breads'],['room','The room']];
 
@@ -337,7 +348,7 @@ function renderCart(){
   foot.style.display='block';
   box.innerHTML=Object.keys(CART).map(function(id){
     var d=DISHES.find(function(x){return x.id===id}); if(!d)return '';
-    return '<div class="ci"><img src="'+d.img+'" alt="" loading="lazy"><div class="ci-b">'+
+    return '<div class="ci">'+(d.img?'<img src="'+d.img+'" alt="" loading="lazy">':'')+'<div class="ci-b">'+
       '<h5>'+esc(d.name)+'</h5><span class="price">'+money(d.price*CART[id])+'</span>'+
       '<div class="qty"><button data-dec="'+id+'" aria-label="One fewer">−</button><span>'+CART[id]+'</span><button data-inc="'+id+'" aria-label="One more">+</button></div>'+
       '</div><button class="ci-rm" data-rm="'+id+'" aria-label="Remove">×</button></div>';
@@ -384,9 +395,11 @@ function dishCard(d,opts){
     .map(function(t){return '<span class="tag '+TAG_CLASS[t]+'">'+TAG_LABEL[t]+'</span>'}).join('');
   var action=opts.hideAdd?'':
     '<button class="add" data-add="'+d.id+'"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Add</span></button>';
-  return '<article class="dish" data-rev="s">'+
-    '<div class="dish-img"><img src="'+d.img+'" alt="'+esc(d.name)+'" loading="lazy">'+
-      (tags?'<div class="dish-tags">'+tags+'</div>':'')+'</div>'+
+  var media=d.img
+    ? '<div class="dish-img"><img src="'+d.img+'" alt="'+esc(d.name)+'" loading="lazy">'+(tags?'<div class="dish-tags">'+tags+'</div>':'')+'</div>'
+    : (tags?'<div class="dish-tags">'+tags+'</div>':'');
+  return '<article class="dish'+(d.img?'':' no-photo')+'" data-rev="s">'+
+    media+
     '<div class="dish-body"><h4>'+esc(d.name)+'</h4><p>'+esc(d.desc)+'</p>'+
       '<div class="dish-foot"><span class="price">'+money(d.price)+'</span>'+action+'</div>'+
     '</div></article>';
