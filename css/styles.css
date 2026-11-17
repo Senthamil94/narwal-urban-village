@@ -291,7 +291,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.08;letter-s
 }
 @keyframes drift{to{background-position:1400px bottom}}
 .hero-in{position:relative;z-index:4;width:100%;padding-block:130px 90px}
-.hero h1{margin:6px 0 26px;letter-spacing:-.03em}
+.hero h1{margin:6px 0 26px;letter-spacing:-.03em;font-size:6.6vw}
 .hero h1 .ln{display:block;overflow:hidden;padding-bottom:.09em;margin-bottom:-.09em}
 .hero h1 .ln>span{display:block;transform:translateY(112%);animation:riseIn 1.15s var(--ease) forwards}
 .hero h1 .ln:nth-child(2)>span{animation-delay:.13s}
