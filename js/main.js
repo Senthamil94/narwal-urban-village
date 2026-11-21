@@ -701,5 +701,28 @@ $('#yr').textContent=new Date().getFullYear();
 route();
 observeReveals();
 
+/* Promo flyer. Set to false to hide without removing the image. */
+(function(){
+  var FLYER_ENABLED = true;
+  var flyer = $('#flyer');
+  var flyerClose = $('#flyer-close');
+  function closeFlyer(){
+    if(!flyer) return;
+    flyer.classList.remove('on');
+    flyer.hidden = true;
+    document.body.classList.remove('flyer-open');
+  }
+  function openFlyer(){
+    if(!flyer || !FLYER_ENABLED) return;
+    flyer.hidden = false;
+    flyer.classList.add('on');
+    document.body.classList.add('flyer-open');
+  }
+  if(flyerClose) flyerClose.addEventListener('click', closeFlyer);
+  if(flyer) flyer.addEventListener('click', function(e){ if(e.target === flyer) closeFlyer(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeFlyer(); });
+  if(FLYER_ENABLED) setTimeout(openFlyer, 500);
+})();
+
 })();
 

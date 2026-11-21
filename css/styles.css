@@ -291,7 +291,7 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.08;letter-s
 }
 @keyframes drift{to{background-position:1400px bottom}}
 .hero-in{position:relative;z-index:4;width:100%;padding-block:130px 90px}
-.hero h1{margin:6px 0 26px;letter-spacing:-.03em;font-size:6.6vw}
+.hero h1{margin:6px 0 26px;letter-spacing:-.03em}
 .hero h1 .ln{display:block;overflow:hidden;padding-bottom:.09em;margin-bottom:-.09em}
 .hero h1 .ln>span{display:block;transform:translateY(112%);animation:riseIn 1.15s var(--ease) forwards}
 .hero h1 .ln:nth-child(2)>span{animation-delay:.13s}
@@ -694,6 +694,17 @@ h1,h2,h3,h4{font-family:var(--display);font-weight:400;line-height:1.08;letter-s
   .hero-meta{gap:22px 30px}
   .cart{width:100%}
 }
+
+/* ---------- Promo flyer ---------- */
+#flyer{position:fixed;inset:0;z-index:10000;background:rgba(16,12,10,.74);display:none;align-items:center;justify-content:center;padding:28px 18px}
+#flyer.on{display:flex}
+.flyer-card{position:relative;width:min(92vw,480px)}
+.flyer-card a{display:block}
+.flyer-card img{width:100%;height:auto;border-radius:16px;box-shadow:0 24px 70px rgba(0,0,0,.45)}
+#flyer-close{position:absolute;top:-14px;right:-14px;width:40px;height:40px;border-radius:50%;border:0;background:#1a1410;color:#fff;font-size:26px;line-height:1;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 6px 16px rgba(0,0,0,.35)}
+#flyer-close:hover,#flyer-close:focus-visible{background:var(--ember);outline:2px solid #fff;outline-offset:2px}
+body.flyer-open{overflow:hidden}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 
 /* ---------- reduced motion ---------- */
 @media (prefers-reduced-motion:reduce){
